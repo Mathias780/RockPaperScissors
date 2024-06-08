@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    padding-inline: 2rem;
+    color: #fff;
+}
+
+body {
+background-color: #2a2a2d;
+}
+
+
+.title-header {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 1rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.playerchoices {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+}
+
+.result {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+.theGame {
+    margin-top: 5rem;
+    
+    padding: 1rem;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border:none;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 1);
+    transition: transform 0.03s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: blue;
+}
+
+.gameScore {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.gameScore p {
+    margin-top: 0.5rem;
+}
